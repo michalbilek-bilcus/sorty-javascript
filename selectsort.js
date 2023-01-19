@@ -3,7 +3,7 @@ document.getElementById("selectText").innerHTML = selectNumbers.toString();
 function selectSort() {
     for (let i = 0; i < selectNumbers.length; i++) {
         let prom = i;
-        for (let j = i + 1; j < selectNumbers.length; j++){
+        for (let j = i + 1; j < selectNumbers.length; j++) {
             if (selectNumbers[prom] > selectNumbers[j]) {
                 prom=j;
             }
