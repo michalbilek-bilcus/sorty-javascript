@@ -9,7 +9,7 @@ function insertSort() {
             insertNumbers[j+1]=insertNumbers[j];
             j--;
         }
-            insertNumbers[j+1]=pom;
+        insertNumbers[j+1]=pom;
         document.getElementById("insertText").innerHTML = insertNumbers.toString();
     }
 }
