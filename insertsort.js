@@ -4,7 +4,7 @@ function insertSort() {
     for (let i=0; i < insertNumbers.length-1; i++) {
         let j=i;
         let pom=insertNumbers[i+1];
-        while(insertNumbers[i] > pom && j >= 0){
+        while(insertNumbers[j] > pom && j >= 0){
             insertNumbers[j+1]=insertNumbers[j];
             j--;
         }
